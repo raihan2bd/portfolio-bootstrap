@@ -18,3 +18,17 @@ html, body {
   transition: all 0.2s ease-in-out;
   border-radius: 5px;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px!important;
+}
+
+.headline_section {
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: space;
+  background-repeat: no-repeat;
+  background-image: url("./images/header-shapes-mobile.png");
+}
