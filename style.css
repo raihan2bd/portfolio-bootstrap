@@ -1,0 +1,86 @@
+html,
+body {
+  font-family: Poppins, sans-serif;
+  position: relative !important;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.dark-blue {
+  color: #344563 !important;
+}
+
+.nav-link:hover {
+  color: #0b1e3f !important;
+}
+
+.nav-item .active {
+  background: #344563 !important;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px !important;
+}
+
+.headline_section {
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: space;
+  background-repeat: no-repeat;
+  background-image: url("./images/header-shapes-mobile.png");
+}
+
+.card_img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.bullet-icon {
+  font-size: 7px;
+  padding: 10px;
+}
+
+.about_section {
+  border-top-right-radius: 70px;
+}
+
+.lan-img {
+  width: 40px;
+}
+
+.contact_section {
+  border-top-left-radius: 70px;
+  background-color: #6070ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom -30px right -16px;
+  background-image: url("./images/contact-form.png");
+}
+
+@media screen and (min-width: 768px) {
+  .headline_section {
+    min-height: 916px !important;
+    background-size: contain;
+  }
+
+  .lan-group li {
+    min-width: 100px;
+  }
+
+  .contact_section {
+    background-image: url("./images/contact-form-bg-pc.png");
+    background-position: initial;
+    background-size: initial;
+  }
+
+  .contact_container {
+    width: 500px !important;
+  }
+}
