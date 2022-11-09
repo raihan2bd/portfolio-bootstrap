@@ -45,3 +45,12 @@ html, body {
 .lan-img {
   width: 40px;
 }
+
+.contact_section {
+  border-top-left-radius: 70px;
+  background-color: #6070ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom -30px right -16px;
+  background-image: url("./images/contact-form.png");
+}
