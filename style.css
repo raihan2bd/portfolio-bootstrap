@@ -54,3 +54,25 @@ html, body {
   background-position: bottom -30px right -16px;
   background-image: url("./images/contact-form.png");
 }
+
+
+@media screen and (min-width: 768px) {
+  .headline_section {
+    min-height: 916px!important;
+    background-size: contain;
+
+  }
+  .lan-group li {
+    min-width: 100px;
+  }
+
+  .contact_section {
+    background-image: url("./images/contact-form-bg-pc.png");
+    background-position: initial;
+    background-size: initial;
+  }
+
+  .contact_container {
+    width: 500px!important;
+  }
+}
