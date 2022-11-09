@@ -32,3 +32,8 @@ html, body {
   background-repeat: no-repeat;
   background-image: url("./images/header-shapes-mobile.png");
 }
+
+.card_img {
+  max-width: 100%;
+  height: 100%;
+}
